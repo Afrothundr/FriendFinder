@@ -183,7 +183,7 @@
 
     $("#submit-btn").on("click", function(event) {
       event.preventDefault();
-
+      //validate
        function validateForm() {
         var isValid = true;
         $(".form-control").each(function() {
@@ -201,7 +201,7 @@
 
       if (validateForm()) {
 
-
+      //save new user
       var newFriend = {
         name : $("#name").val().trim(),
         photo : $("#photo").val().trim(),
@@ -218,7 +218,7 @@
           $("#q10").val().slice(0,1)
         ]
       };
-
+      //send to api
       $.post("/api/new", newFriend)
       .done(function(data) {
         // Grab the result from the AJAX post so that the best match's name and photo are displayed.

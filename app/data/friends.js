@@ -21,6 +21,7 @@ var friends = [
 	}
 ];
 
+//add funtionality to push new user to array of objects
 module.exports = friends;
 module.exports.push2arr = function(val){
 	module.exports.push(val);
