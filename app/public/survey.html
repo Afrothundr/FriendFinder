@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron header">
+      <h1>Friend Finder</h1>
+      <h3>Find people you can bribe with pizza to help you move!</h3>
+      <hr>
+    </div>
+    <div class="row">
+
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>About You</strong></h3>
+          </div>
+          <div class="panel-body">
+            <form method="POST" role="form">
+              <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="form-group">
+                <label for="role">Link to Photo Image</label>
+                <input type="text" class="form-control" id="photo">
+              </div>
+            </form>
+            <br>
+          </div>
+        </div>
+
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Answer Honestly!</strong></h3>
+          </div>
+          <div class="panel-body">
+            <form method="POST" role="form">
+              <div class="form-group">
+                <h3>Question 1</h3>
+                <label for="FormControlSelect1">Ketchup on steak?</label>
+                  <select class="form-control" id="q1">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                 </select>
+                 <h3>Question 2</h3>
+                <label for="FormControlSelect1">It's okay to sneak food into a movie theater.</label>
+                  <select class="form-control" id="q2">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                 </select>
+                 <h3>Question 3</h3>
+                 <label for="FormControlSelect2">Taylor Swift is just misunderstood.</label>
+                  <select class="form-control" id="q3">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 4</h3>
+                 <label for="FormControlSelect3">Liquor before beer you're in the clear!</label>
+                  <select class="form-control" id="q4">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 5</h3>
+                <label for="FormControlSelect3">Aliens have visted our planet.</label>
+                  <select class="form-control" id="q5">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 6</h3>
+                <label for="FormControlSelect3">Jazz?</label>
+                  <select class="form-control" id="q6">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 7</h3>
+                <label for="FormControlSelect3">Jack could have fit on the door.</label>
+                  <select class="form-control" id="q7">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 8</h3>
+                <label for="FormControlSelect3">Star Wars Episode I had some redeeming qualities</label>
+                  <select class="form-control" id="q8">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 9</h3>
+                <label for="FormControlSelect3">More people know the words to R Kelly's "Ignition" than the National Anthem </label>
+                  <select class="form-control" id="q9">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+                  <h3>Question 10</h3>
+                <label for="FormControlSelect3">"The Christmas Shoes" is the worst Christmas song ever.</label>
+                  <select class="form-control" id="q10">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2 (Slightly Disagree)</option>
+                    <option>3 (Neutral)</option>
+                    <option>4 (Slightly Agree)</option>
+                    <option>5 (Strongly Agree)</option>
+                  </select>
+              </div>
+            <br>
+            <div class="text-right">
+              <a type="submit" class="btn btn-primary btn-md" id="submit-btn" href="/api/friends"><span class="glyphicon glyphicon-user"></span> Find your match!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <p><a href="/api/friends">Friends API list</a> | <a href="http://www.github.com/afrothundr/FriendFinder">Github Repo</a></p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    $("#submit-btn").on("click", function(event) {
+      event.preventDefault();
+      var answers = {
+        1: $("#q1").val().slice(0,1),
+        2: $("#q2").val().slice(0,1),
+        3: $("#q3").val().slice(0,1),
+        4: $("#q4").val().slice(0,1),
+        5: $("#q5").val().slice(0,1),
+        6: $("#q6").val().slice(0,1),
+        7: $("#q7").val().slice(0,1),
+        8: $("#q8").val().slice(0,1),
+        9: $("#q9").val().slice(0,1),
+        10: $("#q10").val().slice(0,1)
+      };
+
+      var newFriend = {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        score: Object.values(answers)
+      }
+
+      $.post("/api/new", newFriend)
+      .done(function(data) {
+        console.log(newFriend);
+      });
+  });
+  </script>
+
+</body>
+</html>
