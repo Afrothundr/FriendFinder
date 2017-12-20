@@ -14,12 +14,16 @@ You can clone the repo to your machine and run `npm install`
 
 ## Demo
 * Click "Get Started"
+
 ![get started](https://i.imgur.com/obX7DdQ.jpg)
 * you will see a form with 10 personality questions
+
 ![questions](https://i.imgur.com/nkdAOXv.jpg)
 * Be sure to fill out the required fields including a url for your profile picture
+
 ![required fields](https://i.imgur.com/pt43PQb.jpg)
 * hit submit and see your match!
+
 ![Best Match](https://i.imgur.com/0Pqw8If.jpg)
 
 > **Note:**
